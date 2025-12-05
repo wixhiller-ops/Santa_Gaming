@@ -18,7 +18,7 @@ export default function GameCard({ game }) {
       </div>
       <div className="p-4">
         <div className="flex items-center justify-between">
-          <h3 className="text-lg font-semibold">{game.name}</h3>
+          <h3 className="text-lg font-semibold game-title">{game.name}</h3>
           <span className="rounded-md bg-brand/20 px-2 py-1 text-xs text-brand">Play</span>
         </div>
         {game.tagline && (
@@ -41,7 +41,7 @@ export default function GameCard({ game }) {
       </div>
       <div className="p-4">
         <div className="flex items-center justify-between">
-          <h3 className="text-lg font-semibold">{game.name}</h3>
+          <h3 className="text-lg font-semibold game-title">{game.name}</h3>
           <span className="rounded-md bg-brand/20 px-2 py-1 text-xs text-brand">Details</span>
         </div>
         {game.tagline && (

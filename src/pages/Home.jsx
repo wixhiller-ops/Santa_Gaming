@@ -5,6 +5,7 @@ import cashapp from "../assets/logos/Cashapp.png";
 import applepay from "../assets/logos/Applepay.png";
 import debitcredit from "../assets/logos/Debit_credit cards.png";
 import chime from "../assets/logos/chime.jpg";
+import ShinyText from "../components/ShinyText";
 
 export default function Home() {
   return (
@@ -22,13 +23,16 @@ export default function Home() {
               className="h-20 w-20 rounded-xl object-contain mb-4"
             />
             <h1 className="text-4xl font-extrabold leading-tight">
-              <span className="bg-gradient-to-r from-brand to-brand-dark bg-clip-text text-transparent">
-                Santa Gaming
-              </span>
+              <span className="cyber-santa-text">Santa Gaming</span>
             </h1>
-            <p className="mt-3 max-w-2xl text-gray-300">
-              Deposit and play your favorite skill games. Choose from the list below.
-            </p>
+
+            <ShinyText
+              text="Deposit and play your favorite skill games. Choose from the list
+              below."
+              disabled={false}
+              speed={3}
+              className="mt-3 max-w-2xl text-white custom-class"
+            />
 
             <div className="mt-6">
               <a
@@ -38,7 +42,13 @@ export default function Home() {
                 className="inline-flex items-center gap-2 rounded-md bg-brand px-5 py-2.5 text-sm font-semibold hover:bg-brand-dark transition shadow-md shadow-brand/20"
               >
                 Contact our Facebook page to deposit & play
-                <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <svg
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                >
                   <path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42 9.3-9.29H14V3z"></path>
                 </svg>
               </a>
@@ -46,11 +56,25 @@ export default function Home() {
           </div>
 
           <div className="relative mt-8">
-            <h3 className="text-sm font-semibold text-gray-300 text-center">Supported Payments</h3>
+            <h3 className="text-sm font-semibold text-gray-300 text-center">
+              Supported Payments
+            </h3>
             <div className="mt-4 flex flex-wrap items-center justify-center gap-6">
-              <img src={cashapp} alt="Cash App" className="h-8 w-auto opacity-95" />
-              <img src={applepay} alt="Apple Pay" className="h-8 w-auto opacity-95" />
-              <img src={debitcredit} alt="Debit/Credit Cards" className="h-8 w-auto opacity-95" />
+              <img
+                src={cashapp}
+                alt="Cash App"
+                className="h-8 w-auto opacity-95"
+              />
+              <img
+                src={applepay}
+                alt="Apple Pay"
+                className="h-8 w-auto opacity-95"
+              />
+              <img
+                src={debitcredit}
+                alt="Debit/Credit Cards"
+                className="h-8 w-auto opacity-95"
+              />
               <img src={chime} alt="Chime" className="h-8 w-auto opacity-95" />
             </div>
           </div>
