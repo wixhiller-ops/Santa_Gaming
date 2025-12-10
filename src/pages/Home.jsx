@@ -68,13 +68,13 @@ export default function Home() {
                 <img
                   src={chime}
                   alt="Chime"
-                  className="h-12 rounded-xl w-auto opacity-95 hover:scale-105 hover:rounded-xl transition-transform"
+                  className="h-11 rounded-xl w-auto opacity-95 hover:scale-105 hover:rounded-xl transition-transform"
                 />
               </a>
                 {/* <img
                   src={cashapp}
                   alt="Cash App"
-                  className="h-12 w-auto opacity-95"
+                  className="h-11 w-auto opacity-95"
                 /> */}
                 <a
                   href="https://buy.stripe.com/3cIeVf83U03S78728NeQM00"
@@ -83,7 +83,7 @@ export default function Home() {
                 > <img
                     src={applepay}
                     alt="Apple Pay"
-                    className="h-12 w-auto opacity-95 hover:scale-105 transition-transform"
+                    className="h-11 w-auto opacity-95 hover:scale-105 transition-transform"
                   /></a>
                 <a
                   href="https://buy.stripe.com/3cIeVf83U03S78728NeQM00"
@@ -93,7 +93,7 @@ export default function Home() {
                   <img
                     src={debitcredit}
                     alt="Debit/Credit Cards"
-                    className="h-12 w-auto opacity-95 hover:scale-105 transition-transform"
+                    className="h-11 w-auto opacity-95 hover:scale-105 transition-transform"
                   />
                 </a>
 
