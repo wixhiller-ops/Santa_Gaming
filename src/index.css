@@ -4,9 +4,12 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme {
-  --color-brand: #e11d48;         /* festive red */
-  --color-brand-dark: #be123c;     /* darker red */
-  --color-snow: #e5e7eb;           /* snow/gray-200 */
+  --color-brand: #e11d48;
+  /* festive red */
+  --color-brand-dark: #be123c;
+  /* darker red */
+  --color-snow: #e5e7eb;
+  /* snow/gray-200 */
 }
 
 :root {
@@ -64,35 +67,32 @@ body {
 @keyframes cyberTextMotion {
   0% {
     transform: translateY(0);
-    filter: drop-shadow(0 0 4px rgba(0, 255, 255, 0.35))
-            drop-shadow(0 0 8px rgba(0, 150, 255, 0.25));
+    filter: drop-shadow(0 0 4px rgba(0, 255, 255, 0.35)) drop-shadow(0 0 8px rgba(0, 150, 255, 0.25));
     background-position: 0% 50%;
   }
+
   50% {
     transform: translateY(-1.5px);
-    filter: drop-shadow(0 0 6px rgba(0, 255, 255, 0.45))
-            drop-shadow(0 0 12px rgba(0, 150, 255, 0.35));
+    filter: drop-shadow(0 0 6px rgba(0, 255, 255, 0.45)) drop-shadow(0 0 12px rgba(0, 150, 255, 0.35));
     background-position: 100% 50%;
   }
+
   100% {
     transform: translateY(0);
-    filter: drop-shadow(0 0 4px rgba(0, 255, 255, 0.35))
-            drop-shadow(0 0 8px rgba(0, 150, 255, 0.25));
+    filter: drop-shadow(0 0 4px rgba(0, 255, 255, 0.35)) drop-shadow(0 0 8px rgba(0, 150, 255, 0.25));
     background-position: 0% 50%;
   }
 }
 
 .cyber-santa-text {
   font-weight: 900;
-  background: linear-gradient(
-    90deg,
-    #00f7ff,
-    #24d3ff,
-    #6c4aff,
-    #ff30b3,
-    #ffae00,
-    #00f7ff
-  );
+  background: linear-gradient(90deg,
+      #00f7ff,
+      #24d3ff,
+      #6c4aff,
+      #ff30b3,
+      #ffae00,
+      #00f7ff);
   background-size: 300% 300%;
   -webkit-background-clip: text;
   background-clip: text;
@@ -107,18 +107,22 @@ body {
     background-position: 0% 50%;
     filter: brightness(1);
   }
+
   25% {
     background-position: 50% 100%;
     filter: brightness(1.15);
   }
+
   50% {
     background-position: 100% 50%;
     filter: brightness(1.25);
   }
+
   75% {
     background-position: 50% 0%;
     filter: brightness(1.1);
   }
+
   100% {
     background-position: 0% 50%;
     filter: brightness(1);
@@ -126,15 +130,13 @@ body {
 }
 
 .game-title {
-  background: linear-gradient(
-    -75deg,
-    #aaff4d,
-    #3ce7de,
-    #12d4ff,
-    #ddbf12,
-    #1decb8,
-    #eb1b1b
-  );
+  background: linear-gradient(-75deg,
+      #aaff4d,
+      #3ce7de,
+      #12d4ff,
+      #ddbf12,
+      #1decb8,
+      #eb1b1b);
   background-size: 600% 600%;
   -webkit-background-clip: text;
   background-clip: text;
@@ -219,9 +221,38 @@ body {
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
   }
 }
 
 /* main header button */
+@keyframes midSlide {
+  0% {
+    transform: translateX(-25px);
+  }
+
+  50% {
+    transform: translateX(20px);
+  }
+
+  100% {
+    transform: translateX(-25px);
+  }
+}
+
+.payment-bar {
+  position: relative;
+  overflow: hidden;
+  max-width: 600px;
+  margin-inline: auto;
+}
+
+.payment-track {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  animation: midSlide 6s ease-in-out infinite;
+}

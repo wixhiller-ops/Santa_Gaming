@@ -4,7 +4,6 @@ import { Routes, Route } from "react-router-dom";
 import { useState } from "react";
 import FloatingActions from "./components/FloatingActions";
 import RulesModal from "./components/RulesModal";
-import LightningBackground from "./components/LightningBackground";
 
 // App layout and routes
 // App component
@@ -13,8 +12,6 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-gray-900 text-white relative">
-      {/* Background effect behind all content */}
-      <LightningBackground />
 
       {/* Foreground content */}
       <div className="relative z-10">
