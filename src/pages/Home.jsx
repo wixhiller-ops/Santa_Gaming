@@ -60,12 +60,22 @@ export default function Home() {
               Supported Payments
             </h3>
             <div className="mt-4 payment-bar mx-auto">
-              <div className="payment-track">
+              <div className="payment-track"> <a
+                href="https://app.chime.com/link/qr?u=Maxwell-Reymer"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img
+                  src={chime}
+                  alt="Chime"
+                  className="h-12 rounded-xl w-auto opacity-95 hover:scale-105 hover:rounded-xl transition-transform"
+                />
+              </a>
+                {/* <img
                   src={cashapp}
                   alt="Cash App"
                   className="h-12 w-auto opacity-95"
-                />
+                /> */}
                 <a
                   href="https://buy.stripe.com/3cIeVf83U03S78728NeQM00"
                   target="_blank"
@@ -86,17 +96,7 @@ export default function Home() {
                     className="h-12 w-auto opacity-95 hover:scale-105 transition-transform"
                   />
                 </a>
-                <a
-                  href="https://app.chime.com/link/qr?u=Maxwell-Reymer"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img
-                    src={chime}
-                    alt="Chime"
-                    className="h-12 rounded-xl w-auto opacity-95 hover:scale-105 hover:rounded-xl transition-transform"
-                  />
-                </a>
+
               </div>
             </div>
           </div>
