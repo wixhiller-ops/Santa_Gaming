@@ -71,16 +71,12 @@ export default function Home() {
                   className="h-11 rounded-xl w-auto opacity-95 hover:scale-105 hover:rounded-xl transition-transform"
                 />
               </a>
-                {/* <img
-                  src={cashapp}
-                  alt="Cash App"
-                  className="h-11 w-auto opacity-95"
-                /> */}
                 <a
                   href="https://buy.stripe.com/3cIeVf83U03S78728NeQM00"
                   target="_blank"
                   rel="noreferrer"
-                > <img
+                >
+                  <img
                     src={applepay}
                     alt="Apple Pay"
                     className="h-11 w-auto opacity-95 hover:scale-105 transition-transform"
@@ -94,6 +90,16 @@ export default function Home() {
                     src={debitcredit}
                     alt="Debit/Credit Cards"
                     className="h-11 w-auto opacity-95 hover:scale-105 transition-transform"
+                  />
+                </a>
+                <a
+                  href="https://buy.stripe.com/3cIeVf83U03S78728NeQM00"
+                  target="_blank"
+                  rel="noreferrer"
+                ><img
+                    src={cashapp}
+                    alt="Cash App"
+                    className="h-11 rounded-xl w-auto opacity-95 hover:scale-105 hover:rounded-xl transition-transform"
                   />
                 </a>
 

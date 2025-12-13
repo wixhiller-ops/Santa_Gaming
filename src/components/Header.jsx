@@ -22,7 +22,7 @@ export default function Header() {
           rel="noreferrer"
           className="fb-animated-btn relative overflow-hidden inline-flex items-center gap-2 rounded-md bg-brand px-4 py-2 text-sm font-medium text-white"
         >
-          <span className="fb-shiny-text">Facebook Page</span>
+          <span className="fb-shiny-text">Facebook</span>
           <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
             <path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42 9.3-9.29H14V3z"></path>
             <path d="M5 5h5V3H3v7h2V5zM19 19h-5v2h7v-7h-2v5zM5 19v-5H3v7h7v-2H5z"></path>
