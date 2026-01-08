@@ -61,7 +61,7 @@ export default function Home() {
             </h3>
             <div className="mt-4 payment-bar mx-auto">
               <div className="payment-track"> <a
-                href="https://app.chime.com/link/qr?u=Taylof-Mayes"
+                href="https://app.chime.com/link/qr?u=Maxwell-Reymer"
                 target="_blank"
                 rel="noreferrer"
               >
