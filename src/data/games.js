@@ -9,11 +9,18 @@ import yolo from "../assets/gamesPicture/Yolo.jpg";
 import gameroom from "../assets/gamesPicture/gameroom.jpg";
 import mrallinone from "../assets/gamesPicture/mrallinone.jpg";
 import firekirin from "../assets/gamesPicture/firekirin.png";
+import cashfrenzy from "../assets/gamesPicture/cashfrenzy.png";
 
 const normalize = (name) =>
   name.toLowerCase().replace(/\s+/g, "-").replace(/\./g, "");
 
 const games = [
+  {
+    name: "Juwa",
+    tagline: "Popular choice",
+    image: juwa,
+    url: "https://dl.juwa777.com/",
+  },
   {
     name: "Juwa 2.0",
     tagline: "Classic skill gaming",
@@ -25,12 +32,6 @@ const games = [
     tagline: "Skill-based fun",
     image: orionStar,
     url: "http://start.orionstars.vip:8580/index.html",
-  },
-  {
-    name: "Juwa",
-    tagline: "Popular choice",
-    image: juwa,
-    url: "https://dl.juwa777.com/",
   },
   {
     name: "Milky Way",
@@ -78,7 +79,13 @@ const games = [
     name: "Firekirin",
     tagline: "Hot action",
     image: firekirin,
-    url: "https://firekirin.com/",
+    url: "http://start.firekirin.xyz:8580/",
+  },
+  {
+    name: "Cash Frenzy",
+    tagline: "Fast & furious",
+    image: cashfrenzy,
+    url: "https://www.cashfrenzy777.com/",
   },
 ].map((g) => ({ ...g, slug: normalize(g.name) }));
 
