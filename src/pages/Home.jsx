@@ -60,8 +60,9 @@ export default function Home() {
               Supported Payments
             </h3>
             <div className="mt-4 payment-bar mx-auto">
-              <div className="payment-track"> <a
-                href="https://app.chime.com/link/qr?u=Maxwell-Reymer"
+              <div className="payment-track">
+                <a
+                href="https://app.chime.com/link/qr?u=Tiffany-Peoples-1"
                 target="_blank"
                 rel="noreferrer"
               >
