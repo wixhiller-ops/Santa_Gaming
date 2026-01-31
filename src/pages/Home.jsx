@@ -62,7 +62,7 @@ export default function Home() {
             <div className="mt-4 payment-bar mx-auto">
               <div className="payment-track">
                 <a
-                href="https://app.chime.com/link/qr?u=Herman-Volkers"
+                href="https://app.chime.com/link/qr?u=Robert-Rodeffer"
                 target="_blank"
                 rel="noreferrer"
               >
