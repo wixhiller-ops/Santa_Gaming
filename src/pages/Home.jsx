@@ -63,7 +63,7 @@ export default function Home() {
               <div className="payment-track">
                 <a
                 href="#"
-                {/* href="https://app.chime.com/link/qr?u=Robert-Rodeffer" */}
+                
                 target="_blank"
                 rel="noreferrer"
               >
