@@ -10,7 +10,7 @@ import gameroom from "../assets/gamesPicture/gameroom.jpg";
 import mrallinone from "../assets/gamesPicture/mrallinone.jpg";
 import firekirin from "../assets/gamesPicture/firekirin.png";
 import cashfrenzy from "../assets/gamesPicture/cashfrenzy.png";
-import vegassweep from "../assets/gamesPicture/vegasSweep.png";
+import vegassweep from "../assets/gamesPicture/vegassweep.png";
 
 const normalize = (name) =>
   name.toLowerCase().replace(/\s+/g, "-").replace(/\./g, "");
