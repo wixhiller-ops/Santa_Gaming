@@ -10,6 +10,7 @@ import gameroom from "../assets/gamesPicture/gameroom.jpg";
 import mrallinone from "../assets/gamesPicture/mrallinone.jpg";
 import firekirin from "../assets/gamesPicture/firekirin.png";
 import cashfrenzy from "../assets/gamesPicture/cashfrenzy.png";
+import vegassweep from "../assets/gamesPicture/vegasSweep.png";
 
 const normalize = (name) =>
   name.toLowerCase().replace(/\s+/g, "-").replace(/\./g, "");
@@ -86,6 +87,12 @@ const games = [
     tagline: "Fast & furious",
     image: cashfrenzy,
     url: "https://www.cashfrenzy777.com/",
+  },
+  {
+    name: "Vegas Sweep",
+    tagline: "Sweepstakes action",
+    image: vegassweep,
+    url: "https://m.lasvegassweeps.com",
   },
 ].map((g) => ({ ...g, slug: normalize(g.name) }));
 
