@@ -73,7 +73,7 @@ export default function Home() {
                   className="h-11 rounded-xl w-auto opacity-95 hover:scale-105 hover:rounded-xl transition-transform"
                 />
               </a>
-                <a
+                {/* <a
                   href="https://buy.stripe.com/3cIeVf83U03S78728NeQM00"
                   target="_blank"
                   rel="noreferrer"
@@ -82,8 +82,8 @@ export default function Home() {
                     src={applepay}
                     alt="Apple Pay"
                     className="h-11 w-auto opacity-95 hover:scale-105 transition-transform"
-                  /></a>
-                <a
+                  /></a> */}
+                {/* <a
                   href="https://buy.stripe.com/3cIeVf83U03S78728NeQM00"
                   target="_blank"
                   rel="noreferrer"
@@ -93,7 +93,7 @@ export default function Home() {
                     alt="Debit/Credit Cards"
                     className="h-11 w-auto opacity-95 hover:scale-105 transition-transform"
                   />
-                </a>
+                </a> */}
                 <a
                   href="https://buy.stripe.com/3cIeVf83U03S78728NeQM00"
                   target="_blank"
