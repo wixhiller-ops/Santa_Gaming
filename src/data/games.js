@@ -46,12 +46,12 @@ const games = [
     image: gamevault,
     url: "https://download.gamevault999.com/",
   },
-  {
-    name: "Vblink",
-    tagline: "Fast & exciting",
-    image: vblink,
-    url: "http://www.vblink777.club/",
-  },
+  // {
+  //   name: "Vblink",
+  //   tagline: "Fast & exciting",
+  //   image: vblink,
+  //   url: "http://www.vblink777.club/",
+  // },
   {
     name: "Highstakes",
     tagline: "High risk, high reward",
